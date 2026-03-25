@@ -3,5 +3,5 @@ import { Home } from './layout/home/home';
 
 export const routes: Routes = [
     {path: 'home', component: Home},
-    {path: '**', redirectTo: '/'}
+    {path: '**', redirectTo: '/home'}
 ];
