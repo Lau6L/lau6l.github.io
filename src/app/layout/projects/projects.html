@@ -1,0 +1,20 @@
+@for (project of projects; track $index) {
+    <p>{{ project.name }}</p>
+
+    <img [src]="'projects/' + project.name" [alt]="project.name">
+
+    <p>{{ project.type.replaceAll('_', ' ').toUpperCase() }}</p>
+    <p>{{ project.description }}</p>
+
+    <div>
+        @if (project.completed && project.links) {
+            @for (link of project.links; track $index) {
+                <a [href]="link.url" [title]="link.provider">
+                    <img [src]="link.image" [alt]="link.provider">
+                </a>
+            }
+        } @else {
+            <p>WIP</p>
+        }
+    </div>
+}
