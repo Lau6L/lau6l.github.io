@@ -2,7 +2,7 @@ export interface Project {
     name: string,
     type: ProjectType,
     description: string,
-    source: string,
+    source?: string,
     completed: boolean,
     links?: Link[]
 }
