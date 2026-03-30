@@ -18,8 +18,8 @@ section {
     background-color: var(--bg-section-color);
     border-radius: 25px;
     width: 75vw;
-    margin: 2rem;
-    padding: 3rem 6rem 4rem 6rem;
+    margin: 2rem auto;
+    padding: 5vh 3vw 5vh 3vw;
 }
 
 section h1 {
@@ -29,4 +29,14 @@ section h1 {
 p, a {
     font-size: 1.66rem;
     text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color:brown
+}
+
+a:hover {
+    text-decoration: underline;
+    color:aquamarine
 }

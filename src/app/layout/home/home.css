@@ -1,18 +1,14 @@
 .title {
-    margin: 20vh 0 40vh 0;
+    margin: 20vh 0 auto 0;
 }
 
 .title h1 {
     font-size: 5rem;
 }
 .title h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-bottom: 5px;
 }
 .title h3 {
-    font-size: 2rem;
-}
-
-section div * {
-    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
 }

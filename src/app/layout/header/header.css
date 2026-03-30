@@ -3,13 +3,37 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 3px solid aqua;
+    margin-bottom: 2rem;
 }
 
 a, p {
     margin: 0 3vw;
     font-size: 1.5rem;
+    user-select: none;
+}
+
+a {
+    padding: 6px 9px;
+    color: orange;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: aqua;
+    transition: border-color 200ms ease, background-color 200ms ease;
+}
+
+a:active,
+a:visited {
+    color: orange;
+}
+
+a:hover:not(.active) {
+    background-color: aquamarine;
 }
 
 .active {
-    
+    cursor: default;
+    border-color: antiquewhite;
+    background-color: aliceblue;
 }

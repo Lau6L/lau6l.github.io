@@ -1,0 +1,59 @@
+svg {
+    width: 2.4rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.75vw;
+}
+
+article {
+    background-color: indigo;
+    margin: 0.75vw;
+    padding: 1.5rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content {
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: left;
+    color: purple;
+    margin-bottom: 5px;
+}
+
+.type {
+    font-size: 1.1rem;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+img {
+    height: 8rem;
+    width: 8rem;
+    aspect-ratio: 1;
+    margin-right: 7px;
+}
+
+.description {
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.wip {
+    font-size: 1.4rem;
+}
