@@ -2,7 +2,7 @@
     {
         "name": "Totem of Allying",
         "type": "minecraft_mod",
-        "description": "Adds a totem to teleport animals to the player across any distance and dimension.",
+        "description": "Adds a totem which teleports animals to players across any distance and dimension.",
         "source": "",
         "completed": false
     },
@@ -16,7 +16,7 @@
     {
         "name": "ChatDiag",
         "type": "minecraft_mod",
-        "description": "Flexible server-side chat monologuing library, resourcepack & datapack compatible.",
+        "description": "Flexible server-side monologue library through chat, resourcepack & datapack compatible.",
         "source": "",
         "completed": false
     }
