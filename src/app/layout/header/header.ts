@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { Themes } from '../../service/themes';
 
 @Component({
   selector: 'header',
@@ -8,5 +9,5 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   styleUrl: './header.css',
 })
 export class Header {
-
+  public readonly themes = inject(Themes);
 }

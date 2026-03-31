@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 
-:root {
+body {
     --bg-main-color: #FFF;
     --bg-section-color: #AAA;
     --font-color: #000;
+
+    background-color: var(--bg-main-color);
 }
 
-body {
+body.dark {
+    --bg-main-color: #000;
+    --bg-section-color: #444;
+    --font-color: #fff;
+    
     background-color: var(--bg-main-color);
 }
 
