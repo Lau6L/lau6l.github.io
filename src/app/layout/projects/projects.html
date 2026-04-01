@@ -5,7 +5,9 @@
 <section>
     @for (project of projects; track $index) {
         <article>
-            <img [src]="'projects/' + project.name" [alt]="project.name">
+            <img onerror="this.src='project-icons/unknown.png'" [src]="'project-icons/' + project.name + '.png'" [alt]="project.name">
+
+            <div class="bar"></div>
 
             <div class="content">
                 <div class="title">

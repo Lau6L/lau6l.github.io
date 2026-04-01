@@ -3,7 +3,8 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 3px solid aqua;
+    background-color: var(--header-bg-color);
+    border-bottom: 3px solid var(--header-border-color);
     margin-bottom: 2rem;
 }
 
@@ -15,25 +16,23 @@ a, p {
 
 a {
     padding: 6px 9px;
-    color: orange;
     text-decoration: none;
-    border: 2px solid black;
-    border-radius: 8px;
-    background-color: aqua;
-    transition: border-color 200ms ease, background-color 200ms ease;
+    border-radius: 2rem;
+    background-color: var(--header-btn-default-color);
+    transition: background-color 200ms ease;
 }
 
+a,
 a:active,
 a:visited {
-    color: orange;
+    color: var(--header-font-color);
 }
 
 a:hover:not(.active) {
-    background-color: aquamarine;
+    background-color: var(--header-btn-hover-color);
 }
 
 .active {
     cursor: default;
-    border-color: antiquewhite;
-    background-color: aliceblue;
+    background-color: var(--header-btn-active-color);
 }
