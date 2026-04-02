@@ -2,36 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--font-color)
 }
 
 body {
-    --bg-main-color: linear-gradient(180deg, rgba(61, 45, 64, 1) 10%, rgba(111, 31, 125, 1) 50%, rgba(176, 111, 169, 1) 90%);
-    --font-color: #141216;
-    --section-color: #AAA;
+    /*--bg-main-color: linear-gradient(180deg, rgba(61, 45, 64, 1) 10%, rgba(111, 31, 125, 1) 50%, rgba(176, 111, 169, 1) 90%);*/
+    --bg-main-color: #3b1f5c;
+    --font-color: #d9c9fc;
+    --section-color: #6a4a8e;
 
-    --header-bg-color: #3D2D40;
-    --header-border-color: #141216;
-    --header-btn-default-color: aqua;
-    --header-btn-hover-color: aquamarine;
-    --header-btn-active-color: aliceblue;
+    --header-bg-color: #3b1f5c;
+    --header-border-color: #d9c9fc;
+    --header-btn-default-color: #d9c9fc;
+    --header-btn-hover-color: #9d86cf;
+    --header-btn-active-color: #230944;
     --header-btn-border-color: black;
-    --header-btn-border-active-color: antiquewhite;
-    --header-font-color: orange;
+    --header-btn-border-active-color: black;
+    --header-font-color: #6a4a8e;
 
-    --footer-color: #B06FA9;
-    --footer-border-color: #141216;
+    --footer-color: #3b1f5c;
+    --footer-border-color: #d9c9fc;
 
-    --link-default-color: brown;
-    --link-active-color: aquamarine;
+    --link-default-color: #aa83fd;
+    --link-active-color: #ffffff;
 
-    --project-color: indigo;
-    --project-title-font-color: purple;
-    --project-type-font-color: black;
-    --project-type-color: gray;
-    --project-desc-color: bisque;
-    --project-wip-color: blue;
-    --project-wip-font-color: gray;
+    --project-color: #6a4a8e;
+    --project-title-font-color: #d9c9fc;
+    --project-type-font-color: #9f78cc;
+    --project-type-color: #230944;
+    --project-desc-color: #d9c9fc;
+    --project-wip-color: #230944;
+    --project-wip-font-color: #d9c9fc;
 }
 
 body.dark {
@@ -59,7 +59,18 @@ h1 {
     font-size: 3rem;
 }
 
+p, a, h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    font-weight: 666;
+}
+
 p, a {
+    font-weight: 400;
     font-size: 1.66rem;
     text-align: justify;
 }

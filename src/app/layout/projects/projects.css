@@ -38,9 +38,10 @@ h2 {
 }
 
 .type {
+    font-weight: 750;
     font-size: 1.1rem;
     display: inline-block;
-    padding: 0.2rem;
+    padding: 0.1rem 0.35rem 0.075rem;
     border-radius: 0.3rem;
     text-align: left;
     margin-bottom: 7px;
@@ -67,16 +68,25 @@ img {
 .description {
     font-size: 1.3rem;
     text-align: left;
-    background-color: var(--project-desc-color);
+    border: 0.19rem solid var(--project-desc-color);
     padding: 5px;
     border-radius: 8px;
 }
 
 .wip {
+    font-weight: 750;
     font-size: 1.4rem;
     background-color: var(--project-wip-color);
     color: var(--project-wip-font-color);
     margin: auto 5px;
-    padding: 5px;
+    padding: 0.25rem 0.4rem;
     border-radius: 8px;
+}
+
+.releases  {
+
+}
+
+.hyper {
+    color: aqua;
 }

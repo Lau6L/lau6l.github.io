@@ -12,3 +12,7 @@
 .title h3 {
     font-size: 1.5rem;
 }
+
+h1 {
+    margin-bottom: 0;
+}
