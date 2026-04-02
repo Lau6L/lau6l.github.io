@@ -13,6 +13,10 @@ export enum ProjectType {
 
 export interface Link {
     url: string,
-    provider: string,
-    image: string
+    provider: ProviderType,
+}
+
+export enum ProviderType {
+    Modrinth = "Modrinth",
+    CurseForge = "CurseForge"
 }

@@ -9,6 +9,6 @@ import { Project, ProjectType } from '../../data/project';
   styleUrl: './projects.css',
 })
 export class Projects {
-  public projects: Project[] = projectJson as Project[];
-  public ProjectType = ProjectType;
+  public readonly projects: Project[] = projectJson as Project[];
+  public readonly ProjectType = ProjectType;
 }
