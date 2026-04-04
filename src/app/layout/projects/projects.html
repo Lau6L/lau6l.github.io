@@ -5,7 +5,7 @@
 <section>
     @for (project of projects; track $index) {
         <article>
-            <img onerror="this.src='project-assets/icons/unknown.png'" [src]="'project-assets/icons/' + project.name + '.png'" [alt]="project.name">
+            <img onerror="this.src='project-assets/icons/unknown.png'" [src]="`project-assets/icons/${project.name}.png`" [alt]="project.name">
 
             <div class="bar"></div>
 
@@ -16,20 +16,22 @@
                     <div class="links">
                         @if (project.source) {
                             <a [href]="project.source" target="_blank">
-                                <img src="project-assets/github.svg" alt="GitHub source">
+                                <svg>
+                                    <use href="project-assets/GitHub.svg#icon"></use>
+                                </svg>
                             </a>
                         }
 
                         @if (!project.completed || !project.links) {
                             <p class="wip">WIP</p>
                         } @else {
-                            <div class="releases">
-                                @for (link of project.links; track $index) {
-                                    <a [href]="link.url" target="_blank">
-                                        <img [src]="`project-assets/providers/${link.provider}.svg`" [alt]="`${link.provider} release`">
-                                    </a>
-                                }
-                            </div>
+                            @for (link of project.links; track $index) {
+                                <a [href]="link.url" target="_blank">
+                                    <svg>
+                                        <use [attr.href]="`project-assets/providers/${link.provider}.svg#icon`"></use>
+                                    </svg>
+                                </a>
+                            }
                         }
                     </div>
                 </div>

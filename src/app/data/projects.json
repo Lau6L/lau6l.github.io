@@ -16,8 +16,25 @@
     {
         "name": "ChatDiag",
         "type": "minecraft_mod",
-        "description": "Flexible server-side monologue library through chat, resourcepack & datapack compatible.",
+        "description": "Flexible server-side monologue library through chat. Resource pack and data pack compatible.",
         "source": "",
         "completed": false
+    },
+    {
+        "name": "test",
+        "type": "minecraft_mod",
+        "description": "Flexible server-side monologue library through chat, resourcepack & datapack compatible.Flexible server-side monologue library through chat, resourcepack & datapack compatible.Flexible server-side monologue library through chat, resourcepack & datapack compatible.",
+        "source": "https://www.google.com/",
+        "links": [
+            {
+                "provider": "Modrinth",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "provider": "CurseForge",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "completed": true
     }
 ]
