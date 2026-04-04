@@ -14,4 +14,8 @@ export class Themes {
       bodyClasses.add(dark)
     }
   }
+
+  public getTheme() {
+    return document.body.classList.contains("dark") ? "dark" : "light";
+  }
 }

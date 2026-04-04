@@ -8,15 +8,21 @@ nav {
     margin-bottom: 2rem;
 }
 
-a, p {
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a, p, button {
     margin: 0 3vw;
     font-weight: 525;
     font-size: 1.5rem;
     user-select: none;
 }
 
-a {
-    padding: 0.3rem 0.5rem 0.4rem 0.7rem;
+a, button {
+    padding: 0.43rem 0.7rem 0.4rem 0.7rem;
     text-decoration: none;
     border-radius: 2rem;
     background-color: var(--header-btn-default-color);
@@ -25,15 +31,34 @@ a {
 
 a,
 a:active,
-a:visited {
+a:visited,
+button {
     color: var(--header-font-color);
 }
 
-a:hover:not(.active) {
+a:hover:not(.active),
+button:hover:not(.active) {
+    cursor: pointer;
     background-color: var(--header-btn-hover-color);
 }
 
 .active {
     cursor: default;
     background-color: var(--header-btn-active-color);
+}
+
+button {
+    border: none;
+    size: 2rem;
+    font-size: 0;
+    padding: 0.14rem;
+    margin: 0;
+}
+
+svg {
+    height: 2.4rem;
+    width: 2.4rem;
+    margin: auto;
+    aspect-ratio: 1;
+    fill: var(--header-font-color);
 }

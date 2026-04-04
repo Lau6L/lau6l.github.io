@@ -19,7 +19,9 @@
         </a>
 
         <button class="dark" (click)="themes.toggleTheme()">
-            so
+            <svg>
+                <use [attr.href]="`/project-assets/theme/${themes.getTheme()}.svg#icon`"></use>
+            </svg>
         </button>
     </div>
 </nav>
