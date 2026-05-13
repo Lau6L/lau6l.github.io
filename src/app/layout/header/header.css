@@ -52,12 +52,13 @@ button {
     font-size: 0;
     padding: 2px;
     margin: 0;
+    height: 2.4rem;
+    width: 2.4rem;
 }
 
 svg {
-    height: 2.4rem;
-    width: 2.4rem;
+    height: 100%;
+    width: 100%;
     margin: auto;
-    aspect-ratio: 1;
     fill: var(--header-font-color);
 }
