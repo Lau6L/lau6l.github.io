@@ -6,7 +6,7 @@ import { Inject, Injectable, PLATFORM_ID } from '@angular/core';
 })
 export class Themes {
   private readonly THEME_KEY = 'theme';
-  private isBrowser: boolean;
+  private readonly isBrowser: boolean;
 
   constructor(@Inject(PLATFORM_ID) platformId: Object) {
     this.isBrowser = isPlatformBrowser(platformId);
