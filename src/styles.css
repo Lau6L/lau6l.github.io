@@ -26,10 +26,13 @@ body {
     --project-color: #6a4a8e;
     --project-title-font-color: #d9c9fc;
     --project-type-font-color: #9f78cc;
-    --project-type-color: #230944;
+    --project-type-color: #310d5f;
     --project-desc-color: #d9c9fc;
-    --project-wip-color: #230944;
+    --project-wip-color: #310d5f;
     --project-wip-font-color: #d9c9fc;
+
+    --skills-language-font-color: #230944;
+    --skills-language-bg-color: #593681;
 }
 
 body.dark {
@@ -57,6 +60,9 @@ body.dark {
     --project-desc-color: #c5acfc;
     --project-wip-color: #230944;
     --project-wip-font-color: #c5acfc;
+
+    --skills-language-font-color: #9f78cc;
+    --skills-language-bg-color: #230944;
 }
 
 body {
@@ -78,7 +84,7 @@ h1 {
     font-size: 3rem;
 }
 
-p, a, h1, h2, h3 {
+p, a, h1, h2, h3, ul {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
