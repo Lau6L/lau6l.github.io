@@ -1,3 +1,12 @@
-section p:last-child {
-    margin-top: 1.5rem;
+button {
+    border: none;
+    background: none;
+    color: var(--header-font-color);
+    margin-left: 0.75rem;
+    font-size: 1.75rem;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #fff;
 }
