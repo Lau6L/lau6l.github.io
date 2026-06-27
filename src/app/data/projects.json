@@ -27,7 +27,7 @@
         "type": "minecraft_mod",
         "description": "Flexible server-side monologue library through chat. Data driven, data pack compatible.",
         "source": "https://github.com/Lau6L/ChatDiag",
-        "completed": false,
+        "completed": true,
         "links": [
             {
                 "provider": "Modrinth",
